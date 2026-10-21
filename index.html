@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050914">
+  <meta name="description" content="LDZ TEAM OFC — portal skin mod dan komunitas.">
+  <title>LDZ TEAM OFC | Skin Mod</title>
+  <link rel="icon" href="assets/ldz-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="LDZ Team OFC home">
+      <img src="assets/ldz-logo.png" alt="Logo LDZ Team OFC">
+      <span><b>LDZ TEAM</b><small>OFFICIAL COMMUNITY</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#skins">Skin Mod</a>
+      <a href="#cara">Cara Pakai</a>
+      <a class="nav-cta" href="https://whatsapp.com/channel/0029VbCgTZjJkK7CnPY8om06" target="_blank" rel="noopener">WhatsApp ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> LDZ TEAM OFC • COMMUNITY HUB</div>
+        <h1>LEVEL UP<br><span>YOUR STYLE.</span></h1>
+        <p>Portal komunitas LDZ TEAM OFC untuk melihat koleksi skin dan mengunduh file yang disediakan oleh tim.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#skins">Jelajahi Skin <span>↘</span></a>
+          <a class="btn secondary" href="https://whatsapp.com/channel/0029VbCgTZjJkK7CnPY8om06" target="_blank" rel="noopener">Gabung WhatsApp</a>
+        </div>
+        <div class="hero-note"><span class="dot"></span> Website komunitas independen</div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <img src="assets/ldz-logo.png" alt="Emblem LDZ Team OFC" class="hero-logo">
+        <div class="floating-tag tag-top">⚡ BLUE EDITION</div>
+        <div class="floating-tag tag-bottom">LDZ // OFC</div>
+      </div>
+    </section>
+
+    <section class="section" id="skins">
+      <div class="section-head">
+        <div><div class="eyebrow">THE COLLECTION</div><h2>Skin <span>Mod</span></h2></div>
+        <p>Pilih file yang tersedia. Folder downloads bisa kamu isi dengan file ZIP milikmu sendiri.</p>
+      </div>
+      <div class="notice"><strong>Info:</strong> Paket skin belum disertakan. Tambahkan file yang kamu punya izin untuk dibagikan ke folder <code>downloads/</code>, lalu ubah daftar di <code>script.js</code>.</div>
+      <div class="skin-grid" id="skinGrid">
+        <article class="skin-card featured">
+          <div class="card-visual visual-blue"><div class="visual-mark">LDZ</div><span class="visual-label">BLUE SERIES</span></div>
+          <div class="card-body"><div class="card-meta"><span>COMMUNITY PACK</span><span class="status">SIAP DIISI</span></div><h3>LDZ Blue Collection</h3><p>Tempat untuk paket skin pilihan dari LDZ Team OFC.</p><a class="download-btn disabled" href="#skins" aria-disabled="true">File belum ditambahkan <span>↗</span></a></div>
+        </article>
+        <article class="skin-card">
+          <div class="card-visual visual-dark"><div class="visual-mark">⚔</div><span class="visual-label">DARK SERIES</span></div>
+          <div class="card-body"><div class="card-meta"><span>COMMUNITY PACK</span><span class="status">SIAP DIISI</span></div><h3>Dark Edition</h3><p>Tambahkan file ZIP milikmu untuk ditampilkan di sini.</p><a class="download-btn disabled" href="#skins" aria-disabled="true">File belum ditambahkan <span>↗</span></a></div>
+        </article>
+        <article class="skin-card">
+          <div class="card-visual visual-ice"><div class="visual-mark">✦</div><span class="visual-label">ICE SERIES</span></div>
+          <div class="card-body"><div class="card-meta"><span>COMMUNITY PACK</span><span class="status">SIAP DIISI</span></div><h3>Ice Edition</h3><p>Ruang untuk koleksi skin berikutnya.</p><a class="download-btn disabled" href="#skins" aria-disabled="true">File belum ditambahkan <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="how section" id="cara">
+      <div class="section-head"><div><div class="eyebrow">QUICK GUIDE</div><h2>Cara <span>Menambahkan File</span></h2></div></div>
+      <div class="steps">
+        <div class="step"><span>01</span><h3>Siapkan ZIP</h3><p>Masukkan hanya file yang kamu miliki atau berhak distribusikan.</p></div>
+        <div class="step"><span>02</span><h3>Taruh di folder</h3><p>Salin file ke folder <code>downloads/</code> pada paket website.</p></div>
+        <div class="step"><span>03</span><h3>Atur tautan</h3><p>Edit daftar file pada <code>script.js</code>, lalu unggah ulang ke hosting.</p></div>
+      </div>
+    </section>
+
+    <section class="community">
+      <img src="assets/ldz-logo.png" alt="" class="community-logo">
+      <div><div class="eyebrow">JOIN THE COMMUNITY</div><h2>Stay connected with <span>LDZ.</span></h2><p>Ikuti pengumuman dan pembaruan melalui kanal WhatsApp resmi komunitasmu.</p></div>
+      <a class="btn primary" href="https://whatsapp.com/channel/0029VbCgTZjJkK7CnPY8om06" target="_blank" rel="noopener">Buka WhatsApp ↗</a>
+    </section>
+  </main>
+  <footer><a class="footer-brand" href="#home">LDZ TEAM OFC</a><span>© <span id="year"></span> LDZ Team OFC • Community website</span><a href="https://whatsapp.com/channel/0029VbCgTZjJkK7CnPY8om06" target="_blank" rel="noopener">WhatsApp Channel ↗</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
